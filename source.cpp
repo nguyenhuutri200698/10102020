@@ -18,7 +18,7 @@ int main()
 		
 		break;
 	case '-':
-
+				cout<<"Say hello tri 2";
 		break;
 	case '*':
 
