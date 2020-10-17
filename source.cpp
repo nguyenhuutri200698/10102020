@@ -7,6 +7,7 @@ float thuong(int a, int b);
 int main()
 {
 	int a, b;
+	int d,r;
 	char phepToan;
 	cout << "Nhap 2 so nguyen: ";
 	cin >> a >> b;
@@ -35,6 +36,12 @@ int main()
 	default:
 		cout << "Chon sai phep toan";
 		break;
+		
 	}
+	cout <<"Nhap chieu dai d= ";
+	cin >>d;
+	cout <<"Nhap chieu rong r= ";
+	cin >>r;
+	cout<<"chu vi hinh can tinh la cv= "<<cv;
 	return 0;
 }
