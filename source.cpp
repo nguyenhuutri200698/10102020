@@ -15,7 +15,12 @@ int main()
 	switch (phepToan)
 	{
 	case '+':
-		cout<<"Say hello tri 1";
+		cout<<"nhap so a: ";
+		cin >> a;
+		count << "nhap so b";
+		cin >> b;
+		s = a + b;
+		cout << "Tong la :" << s;
 		break;
 	case '-':
 				cout<<"Say hello tri 2";
